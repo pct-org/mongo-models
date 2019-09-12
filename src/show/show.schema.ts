@@ -1,6 +1,6 @@
 import { Schema } from 'mongoose'
 
-import { contentSchema } from '../content/content.schema'
+import { contentSchema } from '../shared/content.schema'
 
 /**
  * The schema object for the show model.
@@ -19,38 +19,7 @@ export const showSchema = (new Schema(
         status: String
       }
     },
-    numSeasons: Number,
-    seasons: {
-      type: [
-        {
-          tmdbId: Number,
-          number: Number,
-          title: String,
-          synopsis: String,
-          firstAired: Number,
-          images: {
-            type: {
-              full: {
-                type: String,
-                default: null
-              },
-              high: {
-                type: String,
-                default: null
-              },
-              medium: {
-                type: String,
-                default: null
-              },
-              thumb: {
-                type: String,
-                default: null
-              }
-            }
-          }
-        }
-      ]
-    }
+    numSeasons: Number
   },
   {
     collection: 'shows'

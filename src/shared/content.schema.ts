@@ -1,18 +1,3 @@
-export const torrentSchema: Object = {
-  quality: String,
-  provider: String,
-  seeds: Number,
-  peers: Number,
-  url: String,
-  language: String,
-  size: Number
-}
-
-/**
- * Base structure of the database content.
- * @type {Object}
- * @see http://mongoosejs.com/docs/guide.html
- */
 export const contentSchema: Object = {
   _id: {
     type: String,
@@ -54,6 +39,10 @@ export const contentSchema: Object = {
     stars: {
       type: Number
     }
+  },
+  bookmarked: {
+    type: Boolean,
+    default: false
   },
   images: {
     type: {

@@ -1,0 +1,98 @@
+import { Field, ObjectType } from 'type-graphql'
+
+import { Runtime } from './runtime.object-type'
+import { Rating } from './rating.object-type'
+import { Images } from './images.object-type'
+
+@ObjectType()
+export class Content {
+
+  @Field({ description: 'The imdb id of the content.' })
+  _id: string
+
+  @Field({ description: 'The imdb id of the content.' })
+  imdbId: string
+
+  @Field({ description: 'The tmdb id of the content.' })
+  tmdbId: number
+
+  @Field({ description: 'The title of the content.' })
+  title: string
+
+  @Field({ description: 'The release date of the content.' })
+  released: number
+
+  @Field({ description: 'The certification of the content.' })
+  certification: string
+
+  @Field({ description: 'The slug of the content.' })
+  slug: string
+
+  @Field({ description: 'A brief summary of the content.' })
+  synopsis: string
+
+  @Field(type => Runtime, { description: 'How long the content is.' })
+  runtime: Runtime
+
+  @Field(type => Rating, { description: 'The rating of the content.' })
+  rating: Rating
+
+  @Field({ description: 'Is the item bookmarked by the user' })
+  bookmarked: boolean
+
+  @Field(type => Images, { description: 'The images for the content.' })
+  images: Images
+
+  @Field(type => [String], { description: 'The genres describing the content.' })
+  genres: Array<string>
+
+  @Field({ description: 'The type of the content.' })
+  type: string
+
+  @Field({ description: 'The content\'s trailer' })
+  trailer?: string
+
+  @Field({ description: 'The time at which the content was created.' })
+  createdAt: number
+
+  @Field({ description: 'The time at which the content was last updated.' })
+  updatedAt: number
+
+  constructor({
+    imdbId,
+    tmdbId,
+    title,
+    released,
+    certification,
+    slug,
+    synopsis,
+    runtime,
+    rating,
+    bookmarked,
+    images,
+    genres,
+    type,
+    trailer,
+    createdAt,
+    updatedAt
+  }) {
+    this._id = imdbId
+    this.imdbId = imdbId
+    this.tmdbId = tmdbId
+    this.title = title
+    this.released = released
+    this.certification = certification
+    this.slug = slug
+    this.synopsis = synopsis
+    this.runtime = runtime
+    this.rating = rating
+    this.bookmarked = bookmarked
+    this.images = images
+    this.genres = genres
+    this.type = type
+    this.trailer = trailer
+    this.createdAt = createdAt
+    this.updatedAt = updatedAt
+  }
+
+}

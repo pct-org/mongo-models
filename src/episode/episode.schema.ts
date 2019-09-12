@@ -1,43 +1,55 @@
 import { Schema } from 'mongoose'
 
-import { torrentSchema } from '../content/content.schema'
+import { torrentSchema } from '../shared/torrent.schema'
 
-/**
- * The schema object for the show model.
- * @type {Object}
- */
-export const episodeSchema: Object = {
-  tmdbId: Number,
-  number: Number,
-  season: Number,
-  title: String,
-  synopsis: String,
-  firstAired: Number,
-  images: {
-    type: {
-      full: {
-        type: String,
-        default: null
-      },
-      high: {
-        type: String,
-        default: null
-      },
-      medium: {
-        type: String,
-        default: null
-      },
-      thumb: {
-        type: String,
-        default: null
+export const episodeSchema = (new Schema(
+  {
+    _id: {
+      type: String,
+      required: true
+    },
+    tmdbId: Number,
+    number: Number,
+    season: Number,
+    title: String,
+    synopsis: String,
+    firstAired: Number,
+    type: String,
+    watched: {
+      type: Boolean,
+      default: false
+    },
+    images: {
+      type: {
+        full: {
+          type: String,
+          default: null
+        },
+        high: {
+          type: String,
+          default: null
+        },
+        medium: {
+          type: String,
+          default: null
+        },
+        thumb: {
+          type: String,
+          default: null
+        }
       }
-    }
+    },
+    torrents: {
+      type: [torrentSchema]
+    },
+    createdAt: Number,
+    updatedAt: Number,
   },
-  torrents: {
-    type: [torrentSchema]
+  {
+    collection: 'episodes'
   }
-}
-
-export default new Schema(episodeSchema, {
-  collection: 'episodes'
+)).index({
+  season: 1,
+  number: 1,
+  _id: 1
 })
