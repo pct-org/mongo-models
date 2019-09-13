@@ -44,6 +44,7 @@ export const contentSchema: Object = {
     type: Boolean,
     default: false
   },
+  bookmarkedOn: Number,
   images: {
     type: {
       backdrop: {

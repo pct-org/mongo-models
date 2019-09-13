@@ -37,8 +37,11 @@ export class Content {
   @Field(type => Rating, { description: 'The rating of the content.' })
   rating: Rating
 
-  @Field({ description: 'Is the item bookmarked by the user' })
+  @Field({ description: 'Is the item bookmarked by the user', nullable: true })
   bookmarked: boolean
+
+  @Field({ description: 'The time the user bookmarked the item', nullable: true })
+  bookmarkedOn?: number
 
   @Field(type => Images, { description: 'The images for the content.' })
   images: Images
@@ -49,7 +52,7 @@ export class Content {
   @Field({ description: 'The type of the content.' })
   type: string
 
-  @Field({ description: 'The content\'s trailer' })
+  @Field({ description: 'The content\'s trailer', nullable: true })
   trailer?: string
 
   @Field({ description: 'The time at which the content was created.' })
@@ -69,6 +72,7 @@ export class Content {
     runtime,
     rating,
     bookmarked,
+    bookmarkedOn,
     images,
     genres,
     type,
@@ -87,6 +91,7 @@ export class Content {
     this.runtime = runtime
     this.rating = rating
     this.bookmarked = bookmarked
+    this.bookmarkedOn = bookmarkedOn
     this.images = images
     this.genres = genres
     this.type = type

@@ -2,14 +2,12 @@ import { Schema } from 'mongoose'
 
 import { contentSchema } from '../shared/content.schema'
 import { torrentSchema } from '../shared/torrent.schema'
+import { watchedSchema } from '../shared/watched.schema'
 
 export const movieSchema = (new Schema(
   {
     ...contentSchema,
-    watched: {
-      type: Boolean,
-      default: false
-    },
+    ...watchedSchema,
     torrents: {
       type: [torrentSchema]
     }
