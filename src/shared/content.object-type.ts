@@ -61,43 +61,4 @@ export class Content {
   @Field({ description: 'The time at which the content was last updated.' })
   updatedAt: number
 
-  constructor({
-    imdbId,
-    tmdbId,
-    title,
-    released,
-    certification,
-    slug,
-    synopsis,
-    runtime,
-    rating,
-    bookmarked,
-    bookmarkedOn,
-    images,
-    genres,
-    type,
-    trailer,
-    createdAt,
-    updatedAt
-  }) {
-    this._id = imdbId
-    this.imdbId = imdbId
-    this.tmdbId = tmdbId
-    this.title = title
-    this.released = released
-    this.certification = certification
-    this.slug = slug
-    this.synopsis = synopsis
-    this.runtime = runtime
-    this.rating = rating
-    this.bookmarked = bookmarked
-    this.bookmarkedOn = bookmarkedOn
-    this.images = images
-    this.genres = genres
-    this.type = type
-    this.trailer = trailer
-    this.createdAt = createdAt
-    this.updatedAt = updatedAt
-  }
-
 }

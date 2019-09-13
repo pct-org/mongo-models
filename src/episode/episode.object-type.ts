@@ -1,7 +1,7 @@
 import { Field, ObjectType } from 'type-graphql'
 
 import { Torrent } from '../shared/torrent.object-type'
-import { Image } from '../shared/image.object-type'
+import { TmdbImages } from '../shared/tmdb-images.object-type'
 
 @ObjectType()
 export class Episode {
@@ -36,8 +36,8 @@ export class Episode {
   @Field({ description: 'The type of the content.' })
   type: string
 
-  @Field(type => Image, { description: 'The still for the current episode.' })
-  image: Image
+  @Field(type => TmdbImages, { description: 'The still for the current episode.' })
+  images: TmdbImages
 
   @Field(type => [Torrent], { description: 'The episode\'s torrent.' })
   torrents: Array<Torrent>
@@ -47,38 +47,5 @@ export class Episode {
 
   @Field({ description: 'The time at which the content was last updated.' })
   updatedAt: number
-
-  /**
-   * Create a new Episode object.
-   */
-  constructor({
-    showImdbId,
-    tmdbId,
-    number,
-    season,
-    title,
-    synopsis,
-    firstAired,
-    watched,
-    image,
-    torrents,
-    createdAt,
-    updatedAt
-  }) {
-    this._id = `${showImdbId}-S${season}-E${number}`
-    this.showImdbId = showImdbId
-    this.tmdbId = tmdbId
-    this.number = number
-    this.season = season
-    this.title = title
-    this.synopsis = synopsis
-    this.firstAired = firstAired
-    this.watched = watched
-    this.image = image
-    this.torrents = torrents
-    this.createdAt = createdAt
-    this.updatedAt = updatedAt
-    this.type = 'episode'
-  }
 
 }

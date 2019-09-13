@@ -9,6 +9,7 @@ export const episodeSchema = (new Schema(
       type: String,
       required: true
     },
+    showImdbId: String,
     tmdbId: Number,
     number: Number,
     season: Number,

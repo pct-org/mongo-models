@@ -1,7 +1,7 @@
 import { Field, ObjectType } from 'type-graphql'
 
 import { Episode } from '../episode/episode.object-type'
-import { Image } from '../shared/image.object-type'
+import { TmdbImages } from '../shared/tmdb-images.object-type'
 
 @ObjectType()
 export class Season {
@@ -27,8 +27,8 @@ export class Season {
   @Field({ description: 'The date on which the first episode of the season first aired.' })
   firstAired: number
 
-  @Field(type => Image, { description: 'The season poster for the current season.' })
-  image: Image
+  @Field(type => TmdbImages, { description: 'The season poster for the current season.' })
+  images: TmdbImages
 
   @Field({ description: 'The type of the content.' })
   type: string
@@ -41,31 +41,5 @@ export class Season {
 
   @Field({ description: 'The time at which the content was last updated.' })
   updatedAt: number
-
-  constructor({
-    showImdbId,
-    tmdbId,
-    number,
-    title,
-    synopsis,
-    firstAired,
-    image,
-    episodes,
-    createdAt,
-    updatedAt
-  }) {
-    this._id = `${showImdbId}-S${number}`
-    this.showImdbId = showImdbId
-    this.tmdbId = tmdbId
-    this.number = number
-    this.title = title
-    this.synopsis = synopsis
-    this.firstAired = firstAired
-    this.image = image
-    this.episodes = episodes
-    this.createdAt = createdAt
-    this.updatedAt = updatedAt
-    this.type = 'season'
-  }
 
 }

@@ -6,6 +6,7 @@ export const seasonSchema = (new Schema(
       type: String,
       required: true
     },
+    showImdbId: String,
     tmdbId: Number,
     number: Number,
     title: String,

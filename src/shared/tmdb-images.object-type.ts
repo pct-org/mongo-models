@@ -1,18 +1,18 @@
 import { Field, ObjectType } from 'type-graphql'
 
 @ObjectType()
-export class Image {
+export class TmdbImages {
 
   @Field({ description: 'Original image', nullable: true })
-  full: string
+  full?: string
 
   @Field({ description: 'High quality image', nullable: true })
-  high: string
+  high?: string
 
   @Field({ description: 'Medium quality image', nullable: true })
-  medium: string
+  medium?: string
 
   @Field({ description: 'Thumb version of the image', nullable: true })
-  thumb: string
+  thumb?: string
 
 }
