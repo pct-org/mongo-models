@@ -15,7 +15,7 @@ export { showSchema } from './show/show.schema'
 export { ShowModel } from './show/show.model'
 
 export { AirInformation } from './shared/air-Information.object-type'
-export { TmdbImages } from './shared/tmdb-images.object-type'
+export { ImagesSizes } from './shared/images-sizes.object-type'
 export { Images } from './shared/images.object-type'
 export { Rating } from './shared/rating.object-type'
 export { Runtime } from './shared/runtime.object-type'

@@ -1,18 +1,20 @@
 import { Field, ObjectType } from 'type-graphql'
 
+import { ImagesSizes } from './images-sizes.object-type'
+
 @ObjectType()
 export class Images {
 
-  @Field({ description: 'A backdrop image for the content.', nullable: true })
-  backdrop?: string
+  @Field(type => ImagesSizes, { description: 'A backdrop image for the content.', nullable: true })
+  backdrop?: ImagesSizes
 
-  @Field({ description: 'A poster image for the content.', nullable: true })
-  poster?: string
+  @Field(type => ImagesSizes, { description: 'A poster image for the content.', nullable: true })
+  poster?: ImagesSizes
 
-  @Field({ description: 'A hd clear logo image for the content.', nullable: true })
-  logo?: string
+  @Field(type => ImagesSizes, { description: 'A hd clear logo image for the content.', nullable: true })
+  logo?: ImagesSizes
 
-  @Field({ description: 'A banner image for the content.', nullable: true })
-  banner?: string
+  @Field(type => ImagesSizes, { description: 'A banner image for the content.', nullable: true })
+  banner?: ImagesSizes
 
 }

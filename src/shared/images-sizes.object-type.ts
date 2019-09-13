@@ -1,7 +1,7 @@
 import { Field, ObjectType } from 'type-graphql'
 
 @ObjectType()
-export class TmdbImages {
+export class ImagesSizes {
 
   @Field({ description: 'Original image', nullable: true })
   full?: string

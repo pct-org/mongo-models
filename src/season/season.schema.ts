@@ -1,5 +1,7 @@
 import { Schema } from 'mongoose'
 
+import { imagesSizesSchema } from '../shared/images-sizes.schema'
+
 export const seasonSchema = (new Schema(
   {
     _id: {
@@ -13,26 +15,7 @@ export const seasonSchema = (new Schema(
     synopsis: String,
     firstAired: Number,
     type: String,
-    images: {
-      type: {
-        full: {
-          type: String,
-          default: null
-        },
-        high: {
-          type: String,
-          default: null
-        },
-        medium: {
-          type: String,
-          default: null
-        },
-        thumb: {
-          type: String,
-          default: null
-        }
-      }
-    },
+    images: imagesSizesSchema,
     createdAt: Number,
     updatedAt: Number
   },

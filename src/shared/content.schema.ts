@@ -1,3 +1,5 @@
+import { imagesSizesSchema } from './images-sizes.schema'
+
 export const contentSchema: Object = {
   _id: {
     type: String,
@@ -47,22 +49,10 @@ export const contentSchema: Object = {
   bookmarkedOn: Number,
   images: {
     type: {
-      backdrop: {
-        type: String,
-        default: null
-      },
-      poster: {
-        type: String,
-        default: null
-      },
-      logo: {
-        type: String,
-        default: null
-      },
-      banner: {
-        type: String,
-        default: null
-      }
+      backdrop: imagesSizesSchema,
+      poster: imagesSizesSchema,
+      logo: imagesSizesSchema,
+      banner: imagesSizesSchema
     }
   },
   genres: [String],
