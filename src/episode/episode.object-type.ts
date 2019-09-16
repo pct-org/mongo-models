@@ -2,6 +2,7 @@ import { Field, ObjectType } from 'type-graphql'
 
 import { Torrent } from '../shared/torrent.object-type'
 import { ImagesSizes } from '../shared/images-sizes.object-type'
+import { Watched } from '../shared/watched.object-type'
 
 @ObjectType()
 export class Episode {
@@ -30,8 +31,8 @@ export class Episode {
   @Field({ description: 'The date on which the episode was first aired.' })
   firstAired: number
 
-  @Field({ description: 'Did the user watched this episode already.' })
-  watched: boolean
+  @Field(type => Watched, { description: 'Did the user watched this episode already.' })
+  watched: Watched
 
   @Field({ description: 'The type of the content.' })
   type: string

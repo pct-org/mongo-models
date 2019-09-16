@@ -1,6 +1,14 @@
 export const watchedSchema: Object = {
   watched: {
-    type: Boolean,
-    default: false
-  },
+    type: {
+      complete: {
+        type: Boolean,
+        default: false
+      },
+      progress: {
+        type: Number,
+        default: 0
+      }
+    }
+  }
 }
