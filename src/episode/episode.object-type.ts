@@ -43,6 +43,15 @@ export class Episode {
   @Field(type => [Torrent], { description: 'The episode\'s torrent.' })
   torrents: Array<Torrent>
 
+  @Field( { description: 'Is this episode downloaded', defaultValue: false })
+  downloaded: boolean
+
+  @Field( { description: 'Is this episode currently being downloaded', defaultValue: false })
+  downloading: boolean
+
+  @Field( { description: 'The time this episode is downloaded', defaultValue: null })
+  downloadedOn: number
+
   @Field({ description: 'The time at which the content was created.' })
   createdAt: number
 

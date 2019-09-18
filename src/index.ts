@@ -1,18 +1,22 @@
+export { Download } from './download/download.object-type'
+export { DownloadModel } from './download/download.model'
+export { downloadSchema } from './download/download.schema'
+
 export { Episode } from './episode/episode.object-type'
-export { episodeSchema } from './episode/episode.schema'
 export { EpisodeModel } from './episode/episode.model'
+export { episodeSchema } from './episode/episode.schema'
 
 export { Movie } from './movie/movie.object-type'
-export { movieSchema } from './movie/movie.schema'
 export { MovieModel } from './movie/movie.model'
+export { movieSchema } from './movie/movie.schema'
 
 export { Season } from './season/season.object-type'
-export { seasonSchema } from './season/season.schema'
 export { SeasonModel } from './season/season.model'
+export { seasonSchema } from './season/season.schema'
 
 export { Show } from './show/show.object-type'
-export { showSchema } from './show/show.schema'
 export { ShowModel } from './show/show.model'
+export { showSchema } from './show/show.schema'
 
 export { AirInformation } from './shared/air-Information.object-type'
 export { Content } from './shared/content.object-type'
