@@ -1,7 +1,7 @@
 import { Field, ObjectType } from 'type-graphql'
 
 import { Torrent } from '../shared/torrent.object-type'
-import { ImagesSizes } from '../shared/images-sizes.object-type'
+import { Images } from '../shared/images.object-type'
 import { Watched } from '../shared/watched.object-type'
 
 @ObjectType()
@@ -37,8 +37,8 @@ export class Episode {
   @Field({ description: 'The type of the content.' })
   type: string
 
-  @Field(type => ImagesSizes, { description: 'The still for the current episode.' })
-  images: ImagesSizes
+  @Field(type => Images, { description: 'The still for the current episode.' })
+  images: Images
 
   @Field(type => [Torrent], { description: 'The episode\'s torrent.' })
   torrents: Array<Torrent>

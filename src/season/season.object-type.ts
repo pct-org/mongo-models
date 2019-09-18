@@ -1,7 +1,7 @@
 import { Field, ObjectType } from 'type-graphql'
 
 import { Episode } from '../episode/episode.object-type'
-import { ImagesSizes } from '../shared/images-sizes.object-type'
+import { Images } from '../shared/images.object-type'
 
 @ObjectType()
 export class Season {
@@ -27,8 +27,8 @@ export class Season {
   @Field({ description: 'The date on which the first episode of the season first aired.' })
   firstAired: number
 
-  @Field(type => ImagesSizes, { description: 'The season poster for the current season.' })
-  images: ImagesSizes
+  @Field(type => Images, { description: 'The season poster for the current season.' })
+  images: Images
 
   @Field({ description: 'The type of the content.' })
   type: string

@@ -2,6 +2,7 @@ import { Schema } from 'mongoose'
 
 import { torrentSchema } from '../shared/torrent.schema'
 import { watchedSchema } from '../shared/watched.schema'
+import { imagesSchema } from '../shared/images.schema'
 
 export const episodeSchema = (new Schema(
   {
@@ -18,31 +19,12 @@ export const episodeSchema = (new Schema(
     firstAired: Number,
     type: String,
     ...watchedSchema,
-    images: {
-      type: {
-        full: {
-          type: String,
-          default: null
-        },
-        high: {
-          type: String,
-          default: null
-        },
-        medium: {
-          type: String,
-          default: null
-        },
-        thumb: {
-          type: String,
-          default: null
-        }
-      }
-    },
+    images: imagesSchema,
     torrents: {
       type: [torrentSchema]
     },
     createdAt: Number,
-    updatedAt: Number,
+    updatedAt: Number
   },
   {
     collection: 'episodes'
