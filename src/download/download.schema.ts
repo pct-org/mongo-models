@@ -7,12 +7,16 @@ export const downloadSchema = (new Schema(
       required: true
     },
     type: String,
+    variant: String,
     quality: String,
     progress: Number,
     status: {
       type: String,
       default: 'queued'
     },
+    timeRemaining: Number,
+    speed: Number,
+    numPeers: Number,
     createdAt: Number,
     updatedAt: Number
   },

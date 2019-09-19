@@ -8,8 +8,11 @@ export class Download {
   @Field({ description: 'The id of the download, also id of the movie or episode.' })
   _id: string
 
-  @Field({ description: 'The type of the download, episode or movie.' })
+  @Field({ description: 'The type of the download, stream or download' })
   type: string
+
+  @Field({ description: 'The variant of the download, episode or movie.' })
+  variant: string
 
   @Field(type => Episode, { description: 'The episode if type === "episode".', defaultValue: null })
   episode: Episode
@@ -25,6 +28,15 @@ export class Download {
 
   @Field({ description: 'Status of the download.', defaultValue: 'queued' })
   status: string
+
+  @Field({ description: 'Remaining time for the download.', nullable: true })
+  timeRemaining: string
+
+  @Field({ description: 'Formatted download speed.', nullable: true })
+  speed: string
+
+  @Field({ description: 'Number of peers of the download.', nullable: true })
+  numPeers: number
 
   @Field({ description: 'The time at which the download was created.' })
   createdAt: number
