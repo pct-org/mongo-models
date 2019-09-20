@@ -7,7 +7,7 @@ export const downloadSchema = (new Schema(
       required: true
     },
     type: String,
-    variant: String,
+    itemType: String,
     quality: String,
     progress: Number,
     status: {

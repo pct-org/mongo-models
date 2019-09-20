@@ -11,8 +11,8 @@ export class Download {
   @Field({ description: 'The type of the download, stream or download' })
   type: string
 
-  @Field({ description: 'The variant of the download, episode or movie.' })
-  variant: string
+  @Field({ description: 'The item\'s of the download, episode or movie.' })
+  itemType: string
 
   @Field(type => Episode, { description: 'The episode if type === "episode".', defaultValue: null })
   episode: Episode
