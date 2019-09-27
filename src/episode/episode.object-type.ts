@@ -3,6 +3,7 @@ import { Field, ObjectType } from 'type-graphql'
 import { Torrent } from '../shared/torrent.object-type'
 import { Images } from '../shared/images.object-type'
 import { Watched } from '../shared/watched.object-type'
+import { Show } from '../show/show.object-type'
 
 @ObjectType()
 export class Episode {
@@ -43,13 +44,13 @@ export class Episode {
   @Field(type => [Torrent], { description: 'The episode\'s torrent.' })
   torrents: Array<Torrent>
 
-  @Field( { description: 'Is this episode downloaded', defaultValue: false })
+  @Field({ description: 'Is this episode downloaded', defaultValue: false })
   downloaded: boolean
 
-  @Field( { description: 'Is this episode currently being downloaded', defaultValue: false })
+  @Field({ description: 'Is this episode currently being downloaded', defaultValue: false })
   downloading: boolean
 
-  @Field( { description: 'The time this episode is downloaded', defaultValue: null })
+  @Field({ description: 'The time this episode is downloaded', defaultValue: null })
   downloadedOn: number
 
   @Field({ description: 'The time at which the content was created.' })
@@ -57,5 +58,8 @@ export class Episode {
 
   @Field({ description: 'The time at which the content was last updated.' })
   updatedAt: number
+
+  @Field(tye => Show, { description: 'The show this episode belongs to.' })
+  show: Show
 
 }
