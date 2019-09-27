@@ -19,7 +19,8 @@ export const showSchema = (new Schema(
         status: String
       }
     },
-    numSeasons: Number
+    numSeasons: Number,
+    latestEpisodeAired: Number
   },
   {
     collection: 'shows'

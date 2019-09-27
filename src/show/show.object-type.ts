@@ -16,7 +16,10 @@ export class Show extends Content {
   @Field(type => [Season], { description: 'The seasons in the show.' })
   seasons: Array<Season>
 
-  @Field({ description: 'The total amount of seasons' })
+  @Field({ description: 'The total amount of seasons.' })
   numSeasons: number
+
+  @Field({ description: 'The airtime of the latest episode.' })
+  latestEpisodeAired: number
 
 }
