@@ -45,7 +45,7 @@ export class Episode {
   @Field(type => [Torrent], { description: 'The episode\'s torrent.' })
   torrents: Array<Torrent>
 
-  @Field(type => DownloadInfo, { description: 'Download info' })
+  @Field(type => DownloadInfo, { description: 'Download info', defaultValue: false })
   download: DownloadInfo
 
   @Field({ description: 'The time at which the content was created.' })

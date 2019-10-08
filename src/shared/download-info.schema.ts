@@ -5,7 +5,7 @@ export const downloadInfoSchema: Object = {
         type: Boolean,
         default: false
       },
-      downloaded: {
+      downloadComplete: {
         type: Boolean,
         default: false
       },
