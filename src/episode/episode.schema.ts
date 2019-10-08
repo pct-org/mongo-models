@@ -3,6 +3,7 @@ import { Schema } from 'mongoose'
 import { torrentSchema } from '../shared/torrent.schema'
 import { watchedSchema } from '../shared/watched.schema'
 import { imagesSchema } from '../shared/images.schema'
+import { downloadInfoSchema } from '../shared/download-info.schema'
 
 export const episodeSchema = (new Schema(
   {
@@ -19,6 +20,7 @@ export const episodeSchema = (new Schema(
     firstAired: Number,
     type: String,
     ...watchedSchema,
+    ...downloadInfoSchema,
     images: imagesSchema,
     torrents: {
       type: [torrentSchema]
