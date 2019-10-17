@@ -23,3 +23,5 @@ jobs:
       - name: publish
         run: |
           yarn publish --registery //registry.npmjs.org/:_authToken=${NPM_TOKEN}
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
