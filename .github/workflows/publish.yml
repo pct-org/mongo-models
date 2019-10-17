@@ -22,5 +22,4 @@ jobs:
 
       - name: publish
         run: |
-          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .yarnrc
-          yarn publish
+          yarn publish --registery //registry.npmjs.org/:_authToken=${NPM_TOKEN}
