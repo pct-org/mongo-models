@@ -5,9 +5,18 @@
 </h1>
 
 <div align="center">
-  <a target="_blank" href="https://gitter.im/pct-org/app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+  <a target="_blank" href="https://gitter.im/pct-org/Lobby">
     <img src="https://badges.gitter.im/popcorn-time-desktop.svg" alt="Gitter" />
   </a>
+  <a target="_blank" href="https://david-dm.org/pct-org/mongo-models" title="dependencies status">
+    <img src="https://david-dm.org/pct-org/mongo-models/status.svg" />
+  </a>
+  <a target="_blank" href="https://david-dm.org/pct-org/mongo-models?type=dev" title="devDependencies status">
+    <img src="https://david-dm.org/pct-org/mongo-models/dev-status.svg" />
+  </a>
+    <a target="_blank" href="https://github.com/pct-org/mongo-models/pulls">
+      <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+    </a>
 </div>
 
 ---
