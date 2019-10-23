@@ -23,6 +23,4 @@ export const downloadSchema = (new Schema(
   {
     collection: 'downloads'
   }
-)).index({
-  _id: 1
-})
+))

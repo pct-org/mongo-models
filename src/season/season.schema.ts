@@ -23,6 +23,5 @@ export const seasonSchema = (new Schema(
     collection: 'seasons'
   }
 )).index({
-  number: 1,
-  _id: 1
+  showImdbId: 1,
 })
