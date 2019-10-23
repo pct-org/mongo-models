@@ -34,4 +34,5 @@ export const episodeSchema = (new Schema(
 )).index({
   showImdbId: 1,
   season: 1,
+  number: 1,
 })
