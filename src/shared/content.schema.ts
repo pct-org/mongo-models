@@ -53,5 +53,9 @@ export const contentSchema: Object = {
   trailer: {
     type: String,
     default: null
+  },
+  trailerId: {
+    type: String,
+    default: null
   }
 }

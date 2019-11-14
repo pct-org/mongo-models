@@ -55,6 +55,9 @@ export class Content {
   @Field({ description: 'The content\'s trailer', nullable: true })
   trailer?: string
 
+  @Field({ description: 'The content\'s trailer id', nullable: true })
+  trailerId?: string
+
   @Field({ description: 'The time at which the content was created.' })
   createdAt: number
 
