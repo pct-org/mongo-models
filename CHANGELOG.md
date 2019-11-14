@@ -1,3 +1,12 @@
+# [0.15.0](https://github.com/pct-org/mongo-models/compare/v0.14.0...v0.15.0) (2019-11-14)
+
+
+### Features
+
+* Added trailerId ([7e31e2a](https://github.com/pct-org/mongo-models/commit/7e31e2af0aebf9ec0b04f2ec6ea462bc0fff58d7))
+
+
+
 # [0.14.0](https://github.com/pct-org/mongo-models/compare/v0.12.0...v0.14.0) (2019-10-23)
 
 
