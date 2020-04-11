@@ -1,3 +1,22 @@
+# [1.0.0](https://github.com/pct-org/mongo-models/compare/v0.15.0...v1.0.0) (2020-04-11)
+
+
+### Bug Fixes
+
+* Added missing deps ([5b32edc](https://github.com/pct-org/mongo-models/commit/5b32edc10cc9a058144747c4bedaf2766301001e))
+
+
+### chore
+
+* Update deps ([afcc0a7](https://github.com/pct-org/mongo-models/commit/afcc0a75841db5e5dcfc6f89942a83f765c32988))
+
+
+### BREAKING CHANGES
+
+* Migrated from type-graphql to @nestjs/graphql
+
+
+
 # [0.15.0](https://github.com/pct-org/mongo-models/compare/v0.14.0...v0.15.0) (2019-11-14)
 
 
