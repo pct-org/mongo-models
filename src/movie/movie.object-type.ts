@@ -1,4 +1,4 @@
-import { Field, ObjectType } from 'type-graphql'
+import { Field, ObjectType } from '@nestjs/graphql'
 
 import { Content } from '../shared/content.object-type'
 import { Torrent } from '../shared/torrent.object-type'

@@ -1,4 +1,4 @@
-import { Field, ObjectType } from 'type-graphql'
+import { Field, ObjectType } from '@nestjs/graphql'
 
 import { Runtime } from './runtime.object-type'
 import { Rating } from './rating.object-type'

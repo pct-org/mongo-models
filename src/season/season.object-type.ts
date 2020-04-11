@@ -1,4 +1,4 @@
-import { Field, ObjectType } from 'type-graphql'
+import { Field, ObjectType } from '@nestjs/graphql'
 
 import { Episode } from '../episode/episode.object-type'
 import { Images } from '../shared/images.object-type'
