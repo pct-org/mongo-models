@@ -1,3 +1,7 @@
+export { Blacklist } from './blacklist/blacklist.object-type'
+export { BlacklistModel } from './blacklist/blacklist.model'
+export { blacklistSchema } from './blacklist/blacklist.schema'
+
 export { Download } from './download/download.object-type'
 export { DownloadModel } from './download/download.model'
 export { downloadSchema } from './download/download.schema'

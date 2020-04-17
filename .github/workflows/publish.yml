@@ -24,9 +24,10 @@ jobs:
         run: yarn build
 
       - name: Conventional Changelog Action
-        uses: TriPSs/conventional-changelog-action@v1.2.0
+        uses: TriPSs/conventional-changelog-action@v3.0.1
         with:
           github-token: ${{ secrets.github_token }}
+          releaseCount: 2
 
       - name: publish
         run: |
