@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/pct-org/mongo-models/compare/v1.0.0...v1.1.0) (2020-04-17)
+
+
+### Features
+
+* Added blacklist model ([509da06](https://github.com/pct-org/mongo-models/commit/509da06261d8c9683bca28fcb64b2be9bcc0cf95))
+
+
+
 # [1.0.0](https://github.com/pct-org/mongo-models/compare/v0.15.0...v1.0.0) (2020-04-11)
 
 
