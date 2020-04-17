@@ -27,7 +27,6 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v2.0.1
         with:
           github-token: ${{ secrets.github_token }}
-          releaseCount: 2
 
       - name: publish
         run: |
