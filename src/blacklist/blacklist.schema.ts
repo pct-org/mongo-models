@@ -6,6 +6,7 @@ export const blacklistSchema = (new Schema(
       type: String,
       required: true
     },
+    title: String,
     type: String,
     reason: String,
     createdAt: Number,

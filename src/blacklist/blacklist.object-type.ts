@@ -6,6 +6,9 @@ export class Blacklist {
   @Field({ description: 'The id of the item that is blacklisted.' })
   _id: string
 
+  @Field({ description: 'The title of the item that is blacklisted.' })
+  title: string
+
   @Field({ description: 'The type of the blacklisted item, movie or show.' })
   type: string
 
