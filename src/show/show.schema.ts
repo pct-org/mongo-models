@@ -20,7 +20,8 @@ export const showSchema = (new Schema(
       }
     },
     numSeasons: Number,
-    latestEpisodeAired: Number
+    latestEpisodeAired: Number,
+    nextEpisodeAirs: Number
   },
   {
     collection: 'shows'
