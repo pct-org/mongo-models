@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/pct-org/mongo-models/compare/v1.2.0...v1.3.0) (2020-04-22)
+
+
+### Features
+
+* Added nextEpisodeAirs to shows ([dd80329](https://github.com/pct-org/mongo-models/commit/dd803290f512a7c511cfdef754dca44d74599cfb))
+
+
+
 # [1.2.0](https://github.com/pct-org/mongo-models/compare/v1.1.0...v1.2.0) (2020-04-19)
 
 
@@ -41,16 +50,6 @@
 ### Features
 
 * Added trailerId ([7e31e2a](https://github.com/pct-org/mongo-models/commit/7e31e2af0aebf9ec0b04f2ec6ea462bc0fff58d7))
-
-
-
-# [0.14.0](https://github.com/pct-org/mongo-models/compare/v0.12.0...v0.14.0) (2019-10-23)
-
-
-### Features
-
-* Improved indexing ([f7fa24a](https://github.com/pct-org/mongo-models/commit/f7fa24a76167a01c613a3d5718b56913ae09f70d))
-* Improved indexing ([45a2215](https://github.com/pct-org/mongo-models/commit/45a2215ca71b6e1ab2320b6c2fae53521b84eee1))
 
 
 
