@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/pct-org/mongo-models/compare/v1.3.0...v1.4.0) (2020-04-26)
+
+
+### Bug Fixes
+
+* Fixed that nextEpisodeAirs can be null ([65dd348](https://github.com/pct-org/mongo-models/commit/65dd34841fdbf869ab5e1512b198776653f7dff6))
+
+
+### Features
+
+* Added downloadQuality to downoad info of episodes/movies ([4f320dd](https://github.com/pct-org/mongo-models/commit/4f320dd1c398f36d0e2d1cc197c4a4dfed5c8af0))
+
+
+
 # [1.3.0](https://github.com/pct-org/mongo-models/compare/v1.2.0...v1.3.0) (2020-04-22)
 
 
@@ -41,15 +55,6 @@
 ### BREAKING CHANGES
 
 * Migrated from type-graphql to @nestjs/graphql
-
-
-
-# [0.15.0](https://github.com/pct-org/mongo-models/compare/v0.14.0...v0.15.0) (2019-11-14)
-
-
-### Features
-
-* Added trailerId ([7e31e2a](https://github.com/pct-org/mongo-models/commit/7e31e2af0aebf9ec0b04f2ec6ea462bc0fff58d7))
 
 
 
