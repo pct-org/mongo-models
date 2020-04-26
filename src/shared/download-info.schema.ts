@@ -16,6 +16,10 @@ export const downloadInfoSchema: Object = {
       downloadedOn: {
         type: Number,
         default: null
+      },
+      downloadQuality: {
+        type: String,
+        default: null
       }
     }
   }

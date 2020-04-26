@@ -16,6 +16,6 @@ export class DownloadInfo {
   downloadedOn: number
 
   @Field({ description: 'The quality of the download', defaultValue: null, nullable: true })
-  downloadQuality: number
+  downloadQuality: string
 
 }
