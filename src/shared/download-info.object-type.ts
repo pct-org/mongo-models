@@ -15,4 +15,7 @@ export class DownloadInfo {
   @Field({ description: 'The time this episode is downloaded', defaultValue: null, nullable: true })
   downloadedOn: number
 
+  @Field({ description: 'The quality of the download', defaultValue: null, nullable: true })
+  downloadQuality: number
+
 }
