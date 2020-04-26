@@ -22,7 +22,7 @@ export class Show extends Content {
   @Field({ description: 'The airtime of the latest episode.' })
   latestEpisodeAired: number
 
-  @Field({ description: 'The airtime of the next episode.' })
+  @Field({ description: 'The airtime of the next episode.', nullable: true })
   nextEpisodeAirs: number
 
 }
