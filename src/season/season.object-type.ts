@@ -34,7 +34,7 @@ export class Season {
   type: string
 
   @Field(type => [Episode], { description: 'The episodes in the season.' })
-  episodes: Array<Episode>
+  episodes: Episode[]
 
   @Field({ description: 'The time at which the content was created.' })
   createdAt: number

@@ -47,7 +47,7 @@ export class Content {
   images: Images
 
   @Field(type => [String], { description: 'The genres describing the content.' })
-  genres: Array<string>
+  genres: string[]
 
   @Field({ description: 'The type of the content.' })
   type: string

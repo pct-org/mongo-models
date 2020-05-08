@@ -1,4 +1,4 @@
-export const downloadInfoSchema: Object = {
+export const downloadInfoSchema: object = {
   download: {
     type: {
       downloading: {

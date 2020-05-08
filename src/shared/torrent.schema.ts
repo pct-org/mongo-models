@@ -1,4 +1,4 @@
-export const torrentSchema: Object = {
+export const torrentSchema: object = {
   title: String,
   quality: String,
   provider: String,

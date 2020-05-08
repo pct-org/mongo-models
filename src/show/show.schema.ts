@@ -4,7 +4,7 @@ import { contentSchema } from '../shared/content.schema'
 
 /**
  * The schema object for the show model.
- * @type {Object}
+ * @type {object}
  */
 export const showSchema = (new Schema(
   {

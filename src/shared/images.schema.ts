@@ -1,6 +1,6 @@
 import { imagesSizesSchema } from './images-sizes.schema'
 
-export const imagesSchema: Object = {
+export const imagesSchema: object = {
   type: {
     backdrop: imagesSizesSchema,
     poster: imagesSizesSchema,

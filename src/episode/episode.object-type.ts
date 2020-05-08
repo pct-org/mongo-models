@@ -43,7 +43,7 @@ export class Episode {
   images: Images
 
   @Field(type => [Torrent], { description: 'The episode\'s torrent.' })
-  torrents: Array<Torrent>
+  torrents: Torrent[]
 
   @Field(type => DownloadInfo, { description: 'Download info' })
   download: DownloadInfo

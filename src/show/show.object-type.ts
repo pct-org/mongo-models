@@ -14,7 +14,7 @@ export class Show extends Content {
   airInfo: AirInformation
 
   @Field(type => [Season], { description: 'The seasons in the show.' })
-  seasons: Array<Season>
+  seasons: Season[]
 
   @Field({ description: 'The total amount of seasons.' })
   numSeasons: number

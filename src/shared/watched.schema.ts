@@ -1,4 +1,4 @@
-export const watchedSchema: Object = {
+export const watchedSchema: object = {
   watched: {
     type: {
       complete: {

@@ -1,6 +1,6 @@
 import { imagesSchema } from './images.schema'
 
-export const contentSchema: Object = {
+export const contentSchema: object = {
   _id: {
     type: String,
     required: true

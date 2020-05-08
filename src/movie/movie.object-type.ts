@@ -12,7 +12,7 @@ export class Movie extends Content {
   watched: Watched
 
   @Field(type => [Torrent], { description: 'The movie\'s torrents.' })
-  torrents: Array<Torrent>
+  torrents: Torrent[]
 
   @Field(type => DownloadInfo, { description: 'Download info' })
   download: DownloadInfo
