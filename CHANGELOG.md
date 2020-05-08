@@ -1,3 +1,12 @@
+## [1.4.3](https://github.com/pct-org/mongo-models/compare/v1.4.2...v1.4.3) (2020-05-08)
+
+
+### Bug Fixes
+
+* Fixed linting ([e6561bb](https://github.com/pct-org/mongo-models/commit/e6561bb8c5aea1745c839cd7df58eab7cf5f05a3))
+
+
+
 ## [1.4.2](https://github.com/pct-org/mongo-models/compare/v1.4.1...v1.4.2) (2020-05-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Added nextEpisodeAirs to shows ([dd80329](https://github.com/pct-org/mongo-models/commit/dd803290f512a7c511cfdef754dca44d74599cfb))
-
-
-
-# [1.2.0](https://github.com/pct-org/mongo-models/compare/v1.1.0...v1.2.0) (2020-04-19)
-
-
-### Features
-
-* Added title to blacklist ([62fd8c4](https://github.com/pct-org/mongo-models/commit/62fd8c494dc45bfef8ac254f2f0356e231f01a97))
 
 
 
