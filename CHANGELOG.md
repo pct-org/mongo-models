@@ -1,3 +1,7 @@
+## [1.4.2](https://github.com/pct-org/mongo-models/compare/v1.4.1...v1.4.2) (2020-05-08)
+
+
+
 ## [1.4.1](https://github.com/pct-org/mongo-models/compare/v1.4.0...v1.4.1) (2020-04-26)
 
 
@@ -36,15 +40,6 @@
 ### Features
 
 * Added title to blacklist ([62fd8c4](https://github.com/pct-org/mongo-models/commit/62fd8c494dc45bfef8ac254f2f0356e231f01a97))
-
-
-
-# [1.1.0](https://github.com/pct-org/mongo-models/compare/v1.0.0...v1.1.0) (2020-04-17)
-
-
-### Features
-
-* Added blacklist model ([509da06](https://github.com/pct-org/mongo-models/commit/509da06261d8c9683bca28fcb64b2be9bcc0cf95))
 
 
 
