@@ -21,7 +21,7 @@ export class Season {
   @Field({ description: 'The title of the season.' })
   title: string
 
-  @Field({ description: 'A brief summary of the season.' })
+  @Field({ description: 'A brief summary of the season.', nullable: true })
   synopsis: string
 
   @Field({ description: 'The date on which the first episode of the season first aired.' })
