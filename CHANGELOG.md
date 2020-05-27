@@ -1,3 +1,12 @@
+## [1.4.4](https://github.com/pct-org/mongo-models/compare/v1.4.3...v1.4.4) (2020-05-27)
+
+
+### Bug Fixes
+
+* Synopsis can be null ([70c07f5](https://github.com/pct-org/mongo-models/commit/70c07f5c9d17452fba788acc5b7703d2009e9e78))
+
+
+
 ## [1.4.3](https://github.com/pct-org/mongo-models/compare/v1.4.2...v1.4.3) (2020-05-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Added downloadQuality to downoad info of episodes/movies ([4f320dd](https://github.com/pct-org/mongo-models/commit/4f320dd1c398f36d0e2d1cc197c4a4dfed5c8af0))
-
-
-
-# [1.3.0](https://github.com/pct-org/mongo-models/compare/v1.2.0...v1.3.0) (2020-04-22)
-
-
-### Features
-
-* Added nextEpisodeAirs to shows ([dd80329](https://github.com/pct-org/mongo-models/commit/dd803290f512a7c511cfdef754dca44d74599cfb))
 
 
 
