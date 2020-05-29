@@ -1,3 +1,12 @@
+## [1.5.2](https://github.com/pct-org/mongo-models/compare/v1.5.1...v1.5.2) (2020-05-29)
+
+
+### Bug Fixes
+
+* Fixed type subtitle in download ([f9aa47d](https://github.com/pct-org/mongo-models/commit/f9aa47dd8a6fbd2c08a1a4c73ab572663c80e36a))
+
+
+
 ## [1.5.1](https://github.com/pct-org/mongo-models/compare/v1.5.0...v1.5.1) (2020-05-29)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * Fixed linting ([e6561bb](https://github.com/pct-org/mongo-models/commit/e6561bb8c5aea1745c839cd7df58eab7cf5f05a3))
-
-
-
-## [1.4.2](https://github.com/pct-org/mongo-models/compare/v1.4.1...v1.4.2) (2020-05-08)
 
 
 
