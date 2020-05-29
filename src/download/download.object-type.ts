@@ -44,7 +44,7 @@ export class Download {
   @Field({ description: 'The time at which the download was last updated.' })
   updatedAt: number
 
-  @Field({ description: 'Subtitles for the download.' })
+  @Field(type => Subtitle, { description: 'Subtitles for the download.' })
   subtitles: Subtitle[]
 
 }
