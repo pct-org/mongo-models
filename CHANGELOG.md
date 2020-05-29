@@ -1,3 +1,12 @@
+## [1.5.3](https://github.com/pct-org/mongo-models/compare/v1.5.2...v1.5.3) (2020-05-29)
+
+
+### Bug Fixes
+
+* Fixed import of subtitle schema ([5fba198](https://github.com/pct-org/mongo-models/commit/5fba198806a5e121b5a3c21cff98cef5c4b2ae51))
+
+
+
 ## [1.5.2](https://github.com/pct-org/mongo-models/compare/v1.5.1...v1.5.2) (2020-05-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Synopsis can be null ([70c07f5](https://github.com/pct-org/mongo-models/commit/70c07f5c9d17452fba788acc5b7703d2009e9e78))
-
-
-
-## [1.4.3](https://github.com/pct-org/mongo-models/compare/v1.4.2...v1.4.3) (2020-05-08)
-
-
-### Bug Fixes
-
-* Fixed linting ([e6561bb](https://github.com/pct-org/mongo-models/commit/e6561bb8c5aea1745c839cd7df58eab7cf5f05a3))
 
 
 
