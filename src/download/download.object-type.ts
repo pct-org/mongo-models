@@ -1,6 +1,6 @@
 import { Field, ObjectType } from '@nestjs/graphql'
 
-import { Episode, Movie } from '../'
+import { Episode, Movie, Subtitle } from '../'
 
 @ObjectType()
 export class Download {
@@ -43,5 +43,8 @@ export class Download {
 
   @Field({ description: 'The time at which the download was last updated.' })
   updatedAt: number
+
+  @Field({ description: 'Subtitles for the download.' })
+  subtitles: Subtitle[]
 
 }

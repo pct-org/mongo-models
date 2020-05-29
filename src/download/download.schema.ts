@@ -1,5 +1,7 @@
 import { Schema } from 'mongoose'
 
+import { subtitleSchema } from '..'
+
 export const downloadSchema = (new Schema(
   {
     _id: {
@@ -18,7 +20,10 @@ export const downloadSchema = (new Schema(
     speed: Number,
     numPeers: Number,
     createdAt: Number,
-    updatedAt: Number
+    updatedAt: Number,
+    subtitles: {
+      type: [subtitleSchema]
+    },
   },
   {
     collection: 'downloads'
