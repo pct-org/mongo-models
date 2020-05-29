@@ -1,6 +1,6 @@
 import { Schema } from 'mongoose'
 
-import { subtitleSchema } from '..'
+import { subtitleSchema } from '../shared/subtitle.schema'
 
 export const downloadSchema = (new Schema(
   {
