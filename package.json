@@ -1,6 +1,6 @@
 {
   "name": "@pct-org/mongo-models",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "private": false,
   "description": "Models for Mongo",
   "license": "MIT",

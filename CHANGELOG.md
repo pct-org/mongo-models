@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/pct-org/mongo-models/compare/v1.4.4...v1.5.0) (2020-05-29)
+
+
+### Features
+
+* Added subtiles definition ([2e9ecc9](https://github.com/pct-org/mongo-models/commit/2e9ecc93e9e7b209642d0c95be420ae058fbecb0))
+
+
+
 ## [1.4.4](https://github.com/pct-org/mongo-models/compare/v1.4.3...v1.4.4) (2020-05-27)
 
 
@@ -26,20 +35,6 @@
 ### Bug Fixes
 
 * Fixes for download info ([0e29b44](https://github.com/pct-org/mongo-models/commit/0e29b443ca68bda739f721699dade478b2ea2424))
-
-
-
-# [1.4.0](https://github.com/pct-org/mongo-models/compare/v1.3.0...v1.4.0) (2020-04-26)
-
-
-### Bug Fixes
-
-* Fixed that nextEpisodeAirs can be null ([65dd348](https://github.com/pct-org/mongo-models/commit/65dd34841fdbf869ab5e1512b198776653f7dff6))
-
-
-### Features
-
-* Added downloadQuality to downoad info of episodes/movies ([4f320dd](https://github.com/pct-org/mongo-models/commit/4f320dd1c398f36d0e2d1cc197c4a4dfed5c8af0))
 
 
 
