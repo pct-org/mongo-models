@@ -1,3 +1,12 @@
+## [1.6.2](https://github.com/pct-org/mongo-models/compare/v1.6.1...v1.6.2) (2020-09-13)
+
+
+### Bug Fixes
+
+* Torrent title can be null ([30e34ac](https://github.com/pct-org/mongo-models/commit/30e34ace8edc84a5ff02fcd57cd2f744931e15d2))
+
+
+
 ## [1.6.1](https://github.com/pct-org/mongo-models/compare/v1.6.0...v1.6.1) (2020-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Fixed type subtitle in download ([f9aa47d](https://github.com/pct-org/mongo-models/commit/f9aa47dd8a6fbd2c08a1a4c73ab572663c80e36a))
-
-
-
-## [1.5.1](https://github.com/pct-org/mongo-models/compare/v1.5.0...v1.5.1) (2020-05-29)
-
-
-### Bug Fixes
-
-* Fixed subtitle type in download not defined ([665bbee](https://github.com/pct-org/mongo-models/commit/665bbeef0bf4c4f4818e69409bb3aaa6271f698f))
 
 
 
