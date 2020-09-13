@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/pct-org/mongo-models/compare/v1.6.0...v1.6.1) (2020-09-13)
+
+
+### Bug Fixes
+
+* Give the searchTorrents a default value ([d790236](https://github.com/pct-org/mongo-models/commit/d790236375c0862954dbf5470982882d438f4491))
+
+
+
 # [1.6.0](https://github.com/pct-org/mongo-models/compare/v1.5.3...v1.6.0) (2020-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Fixed subtitle type in download not defined ([665bbee](https://github.com/pct-org/mongo-models/commit/665bbeef0bf4c4f4818e69409bb3aaa6271f698f))
-
-
-
-# [1.5.0](https://github.com/pct-org/mongo-models/compare/v1.4.4...v1.5.0) (2020-05-29)
-
-
-### Features
-
-* Added subtiles definition ([2e9ecc9](https://github.com/pct-org/mongo-models/commit/2e9ecc93e9e7b209642d0c95be420ae058fbecb0))
 
 
 
