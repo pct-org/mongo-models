@@ -45,7 +45,10 @@ export class Episode {
   @Field(type => [Torrent], { description: 'The episode\'s torrents.' })
   torrents: Torrent[]
 
-  @Field(type => [Torrent], { description: 'The episode\'s torrents that where found by search.' })
+  @Field(type => [Torrent], {
+    description: 'The episode\'s torrents that where found by search.',
+    defaultValue: []
+  })
   searchedTorrents: Torrent[]
 
   @Field(type => DownloadInfo, { description: 'Download info' })
