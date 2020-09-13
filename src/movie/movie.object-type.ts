@@ -14,6 +14,9 @@ export class Movie extends Content {
   @Field(type => [Torrent], { description: 'The movie\'s torrents.' })
   torrents: Torrent[]
 
+  @Field(type => [Torrent], { description: 'The movie\'s torrents that where found by search.' })
+  searchedTorrents: Torrent[]
+
   @Field(type => DownloadInfo, { description: 'Download info' })
   download: DownloadInfo
 

@@ -42,8 +42,11 @@ export class Episode {
   @Field(type => Images, { description: 'The still for the current episode.' })
   images: Images
 
-  @Field(type => [Torrent], { description: 'The episode\'s torrent.' })
+  @Field(type => [Torrent], { description: 'The episode\'s torrents.' })
   torrents: Torrent[]
+
+  @Field(type => [Torrent], { description: 'The episode\'s torrents that where found by search.' })
+  searchedTorrents: Torrent[]
 
   @Field(type => DownloadInfo, { description: 'Download info' })
   download: DownloadInfo

@@ -25,6 +25,9 @@ export const episodeSchema = (new Schema(
     torrents: {
       type: [torrentSchema]
     },
+    searchedTorrents: {
+      type: [torrentSchema]
+    },
     createdAt: Number,
     updatedAt: Number
   },

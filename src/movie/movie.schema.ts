@@ -12,6 +12,9 @@ export const movieSchema = (new Schema(
     ...downloadInfoSchema,
     torrents: {
       type: [torrentSchema]
+    },
+    searchedTorrents: {
+      type: [torrentSchema]
     }
   },
   {
