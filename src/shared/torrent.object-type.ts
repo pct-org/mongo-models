@@ -3,7 +3,7 @@ import { Field, ObjectType } from '@nestjs/graphql'
 @ObjectType()
 export class Torrent {
 
-  @Field({ description: 'The title of the torrent.' })
+  @Field({ description: 'The title of the torrent.', nullable: true })
   title: string
 
   @Field({ description: 'The quality of the video (2160p, 1080p, 720p, 480p).' })
