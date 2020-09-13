@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/pct-org/mongo-models/compare/v1.5.3...v1.6.0) (2020-09-13)
+
+
+### Features
+
+* Added searched torrents ([fb10257](https://github.com/pct-org/mongo-models/commit/fb102577b1874082026968b2c484891a85d225ac))
+
+
+
 ## [1.5.3](https://github.com/pct-org/mongo-models/compare/v1.5.2...v1.5.3) (2020-05-29)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Added subtiles definition ([2e9ecc9](https://github.com/pct-org/mongo-models/commit/2e9ecc93e9e7b209642d0c95be420ae058fbecb0))
-
-
-
-## [1.4.4](https://github.com/pct-org/mongo-models/compare/v1.4.3...v1.4.4) (2020-05-27)
-
-
-### Bug Fixes
-
-* Synopsis can be null ([70c07f5](https://github.com/pct-org/mongo-models/commit/70c07f5c9d17452fba788acc5b7703d2009e9e78))
 
 
 
