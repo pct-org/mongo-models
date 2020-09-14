@@ -9,6 +9,9 @@ export class Torrent {
   @Field({ description: 'The quality of the video (2160p, 1080p, 720p, 480p).' })
   quality: string
 
+  @Field({ description: 'The type of torrent, scraped or searched.', defaultValue: 'scraped' })
+  type: string
+
   @Field({ description: 'The website from which the torrent was obtained.' })
   provider: string
 
