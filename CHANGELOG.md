@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/pct-org/mongo-models/compare/v1.6.2...v1.7.0) (2020-09-14)
+
+
+### Features
+
+* Added torrentType to download modal ([8197943](https://github.com/pct-org/mongo-models/commit/81979430a34691d6f9c1894e17e30f4a7be6ee0e))
+
+
+
 ## [1.6.2](https://github.com/pct-org/mongo-models/compare/v1.6.1...v1.6.2) (2020-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Fixed import of subtitle schema ([5fba198](https://github.com/pct-org/mongo-models/commit/5fba198806a5e121b5a3c21cff98cef5c4b2ae51))
-
-
-
-## [1.5.2](https://github.com/pct-org/mongo-models/compare/v1.5.1...v1.5.2) (2020-05-29)
-
-
-### Bug Fixes
-
-* Fixed type subtitle in download ([f9aa47d](https://github.com/pct-org/mongo-models/commit/f9aa47dd8a6fbd2c08a1a4c73ab572663c80e36a))
 
 
 
