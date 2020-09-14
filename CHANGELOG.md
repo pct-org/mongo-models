@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/pct-org/mongo-models/compare/v1.7.0...v1.8.0) (2020-09-14)
+
+
+### Features
+
+* Added type to torrent schema / object-type ([bf86a67](https://github.com/pct-org/mongo-models/commit/bf86a6720f79b98099bddfa7330614f02c7d660f))
+
+
+
 # [1.7.0](https://github.com/pct-org/mongo-models/compare/v1.6.2...v1.7.0) (2020-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Added searched torrents ([fb10257](https://github.com/pct-org/mongo-models/commit/fb102577b1874082026968b2c484891a85d225ac))
-
-
-
-## [1.5.3](https://github.com/pct-org/mongo-models/compare/v1.5.2...v1.5.3) (2020-05-29)
-
-
-### Bug Fixes
-
-* Fixed import of subtitle schema ([5fba198](https://github.com/pct-org/mongo-models/commit/5fba198806a5e121b5a3c21cff98cef5c4b2ae51))
 
 
 
