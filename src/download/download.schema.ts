@@ -10,6 +10,7 @@ export const downloadSchema = (new Schema(
     },
     type: String,
     itemType: String,
+    torrentType: String,
     quality: String,
     progress: Number,
     status: {

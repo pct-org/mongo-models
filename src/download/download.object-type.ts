@@ -14,6 +14,9 @@ export class Download {
   @Field({ description: 'The item\'s of the download, episode or movie.' })
   itemType: string
 
+  @Field({ description: 'The type of torrent, default or searched.', defaultValue: 'default' })
+  torrentType: string
+
   @Field(type => Episode, { description: 'The episode if type === "episode".', defaultValue: null })
   episode: Episode
 
